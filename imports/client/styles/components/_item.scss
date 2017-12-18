@@ -1,0 +1,22 @@
+.item {
+    background: $item-bg;
+    border: 1px solid $item-border;
+    margin-bottom: $space;
+    padding: $space;
+    h2 {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
+.item__message {
+    color: $item-text-color;
+}
+
+.item__status-message {
+    color: $item-text-color;
+    font-style: italic;
+    text-align: center;
+    margin: 0;
+}
